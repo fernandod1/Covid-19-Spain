@@ -61,7 +61,7 @@ print('</ul></div>');
 ?>
 
 
-<br>Script creado por <a href=https:/www.fernando.info>Fernando</a> con datos recopilados cada 24 horas desde el 
+<br>Script creado por <a href="https://www.fernando.info">Fernando</a> con datos recopilados cada 24 horas desde el 
 <a href=https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/situacionActual.htm>Ministerio de Sanidad</a>.
 <br><br><br><br><br><br>
 </div>
