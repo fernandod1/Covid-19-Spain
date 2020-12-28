@@ -1,6 +1,6 @@
 # Covid-19 Spain daily reports
 
-PHP script displaying daily reports/stats about Covid-19 virus status in Spain and its states. Data is collected from API of Ministerio de Sanidad of goberment of Spain.
+PHP script displaying daily reports/stats about Covid-19 virus status in Spain and its states. Data is collected from API of Ministerio de Sanidad of government of Spain.
 
 DEMO:
 
