@@ -39,7 +39,7 @@ for ($i=0;$i<sizeof($data);$i++){
     print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-user-plus"></i> Nuevos &uacute;ltimos 7 d&iacute;as: <span class="badge bg-primary rounded-pill">'.$data[$i]["diagnosticados_ultimos_7_dias"].'</span></li>');
     print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-chart-bar"></i> Incidencia acumulada 7 d&iacute;as: <span class="badge bg-primary rounded-pill">'.$data[$i]["ia_7_dias"].'</span></li>');
     print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-chart-bar"></i> Incidencia acumulada 14 d&iacute;as: <span class="badge bg-primary rounded-pill">'.$data[$i]["ia"].'</span></li>');
-    print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-chart-line"></i> Variaci&oacute;n IA: <span class="badge bg-'.$label->getColourIA($data[$i]["VARIACIÓN IA "]).' rounded-pill">'.$data[$i]["VARIACIÓN IA "].'</span></li>');
+    print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-chart-line"></i> Variaci&oacute;n IA: <span class="badge bg-'.$label->getColourIA($data[$i]["VARIACIÓN IA "]).' rounded-pill">'.$data[$i]["variacion_ia"].'</span></li>');
     print('<li class="list-group-item-secondary list-group-item d-flex justify-content-between align-items-center"><b>FALLECIMIENTOS</b></li>');
     print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-grip-lines"></i> Fallecidos: <span class="badge bg-primary rounded-pill">'.$data[$i]["fallecidos"].'</span></li>');
     print('<li class="list-group-item d-flex justify-content-between align-items-center"><i class="fas fa-grip-lines"></i> Incremento fallecidos: <span class="badge bg-'.$label->getColourPassedAway($data[$i]["incremento_fallecidos"]).' rounded-pill">'.$data[$i]["incremento_fallecidos"].'</span></li>');
@@ -61,7 +61,7 @@ print('</ul></div>');
 ?>
 
 
-<br>Script creado por <a href="https://www.fernando.info">Fernando</a> con datos recopilados cada 24 horas desde el 
+<br>v1.0 script creado por <a href="https://www.fernando.info">Fernando</a> con datos recopilados cada 24 horas desde el 
 <a href=https://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/situacionActual.htm>Ministerio de Sanidad</a>.
 <br><br><br><br><br><br>
 </div>
