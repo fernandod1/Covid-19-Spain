@@ -8,7 +8,7 @@ You can check script running in real time in: <a href=https://covid19espana.hero
 
 ## SCREENSHOTS:
 
-<img src=screenshots/01.png width=350> <img src=screenshots/02.png width=350> <img src=screenshots/03.png width=350>
+<img src=screenshots/01.png width=350> <img src=screenshots/02.png width=350>
 
 ## COLLABORATIONS:
 
